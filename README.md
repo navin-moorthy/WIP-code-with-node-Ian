@@ -71,3 +71,21 @@
 - Adding **VCS git** for tracking my files
 - [UseLoom](https://www.useloom.com) -  To share hours and hours of coding videos
 
+## Section 3
+### Routes
+- Created Posts Routes with CRUD.
+- Created Reviews Routes for Posts with CRUD.
+- Created User and Index Routes with CRUD.
+
+## Section 4
+### Models
+- Created users models.
+- used `passport-local-mongoose`.
+- Created posts models.
+- Created reviews models.
+
+## Section 5
+### User Authentication
+- Included ` npm i -S passport-local express-session` for the authentication process.
+- Created a controller which is something new `const { postRegister } = require("../controller/index");` - destructuring the objects instead of saving them in a variable and getting them back.
+- Connected to Mongo DB.
