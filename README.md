@@ -89,3 +89,16 @@
 - Included ` npm i -S passport-local express-session` for the authentication process.
 - Created a controller which is something new `const { postRegister } = require("../controller/index");` - destructuring the objects instead of saving them in a variable and getting them back.
 - Connected to Mongo DB.
+- Configuring Register post route using async/await. Below are the helpful materials to gain a knowledge about promises,
+    + https://medium.com/@bluepnume/learn-about-promises-before-you-start-using-async-await-eb148164a9c8
+    + https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+    + https://tutorialzine.com/2017/07/javascript-async-await-explained
+- User auth login, register and logout routes controller and middleware has been configured.
+
+## Section 6
+### Post Resources
+- Posts Index Page route setup done.
+- Posts New Page route setup done.
+- Posts Show Page route setup done.
+- Posts Edit Page route setup done. Used `method-override` for PUT requests.
+- Update the post and destroy. Used `locus` for debugging.
