@@ -2,7 +2,7 @@
 ## Intermediate Node Developement Course
 
 ## Section 1
-###Intro and Overview
+### Intro and Overview
 
 - Going to build a Shoping site at the end of the course and it's in progress and will get updated regularly.
 - RTFM kind of advice in debugging the code.
