@@ -110,8 +110,10 @@
 - Setup was made to upload 4 images and saved environment variables with dotenv
 - Image Edit and Delete in Post Form.
 
-
+## Section 8 
+### GeoLocation with Mapbox
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU2Mzk0MTEsNjM0OTMwNzY3LDg2MD
+eyJoaXN0b3J5IjpbLTIwNDMzODI1MTcsNjM0OTMwNzY3LDg2MD
 UzNDM5NSwxMzUyNjMzMTkwLC0yMDM5MDEwODMzXX0=
 -->
