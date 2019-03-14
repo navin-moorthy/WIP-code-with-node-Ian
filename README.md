@@ -104,7 +104,9 @@
 - Update the post and destroy. Used `locus` for debugging.
 
 ## Section 7
-
+### Image Upload with Cloudinary
+- Signed up with cloudinary.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkwMTA4MzNdfQ==
+eyJoaXN0b3J5IjpbLTY2ODYxODU0MSwtMjAzOTAxMDgzM119
 -->
