@@ -108,8 +108,8 @@
 - Signed up with cloudinary.
 - Installed `npm i -S cloudinary multer` 
 - Setup was made to upload 4 images and saved environment variables with dotenv
-- Image Edit  
+- Image Edit in Post Form. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjMyNTM4Niw4NjA1MzQzOTUsMTM1Mj
-YzMzE5MCwtMjAzOTAxMDgzM119
+eyJoaXN0b3J5IjpbNjM0OTMwNzY3LDg2MDUzNDM5NSwxMzUyNj
+MzMTkwLC0yMDM5MDEwODMzXX0=
 -->
