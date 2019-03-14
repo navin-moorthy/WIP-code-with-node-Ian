@@ -105,16 +105,17 @@
 
 ## Section 7
 ### Image Upload with Cloudinary
-- Signed up with cloudinary.
+- Signed up with Cloudinary.
 - Installed `npm i -S cloudinary multer` 
 - Setup was made to upload 4 images and saved environment variables with dotenv
 - Image Edit and Delete in Post Form.
 
 ## Section 8 
 ### GeoLocation with Mapbox
-- Su
+- Signed up with MapBox.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzU3MDU2OSwtMjA0MzM4MjUxNyw2Mz
-Q5MzA3NjcsODYwNTM0Mzk1LDEzNTI2MzMxOTAsLTIwMzkwMTA4
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTExMDcyNDY0MzIsLTIwNDMzODI1MTcsNj
+M0OTMwNzY3LDg2MDUzNDM5NSwxMzUyNjMzMTkwLC0yMDM5MDEw
+ODMzXX0=
 -->
