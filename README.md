@@ -106,7 +106,7 @@
 ## Section 7
 ### Image Upload with Cloudinary
 - Signed up with cloudinary.
-- 
+- Installed `npm i -S cloudinary multer` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODYxODU0MSwtMjAzOTAxMDgzM119
+eyJoaXN0b3J5IjpbMTM1MjYzMzE5MCwtMjAzOTAxMDgzM119
 -->
