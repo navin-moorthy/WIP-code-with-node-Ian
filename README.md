@@ -102,3 +102,9 @@
 - Posts Show Page route setup done.
 - Posts Edit Page route setup done. Used `method-override` for PUT requests.
 - Update the post and destroy. Used `locus` for debugging.
+
+## Section 7
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwMzkwMTA4MzNdfQ==
+-->
