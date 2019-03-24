@@ -1,0 +1,40 @@
+<h1> Posts Edit Page ! </h1>
+
+<form action="/posts/<%= post.id %>?_method=PUT" method="POST" id="postEditForm" enctype="multipart/form-data">
+    <div><input type="text" name="post[title]" value="<%= post.title %>"></div>
+    <div><input type="text" name="post[price]" value="<%= post.price %>"></div>
+    <div>
+        <input type="file" id="imageUpload" name="images" accept="images/*" multiple>
+        <div>
+            <% post.images.forEach((image, i) => { %>
+                <img src="<%= image.url %>" alt="Nature Image"  width='100px' height='50px'>
+                <label for="image <%= i %>">Delete?</label>
+                <input type="checkbox" name="deleteImages[]" class="imageDeleteCheckbox" id="image <%= i %>" value="<%= image.public_id %>">
+            <% });%>
+        </div>
+    </div>
+    <div><textarea name="post[description]"><%= post.description %></textarea></div>
+    <div><input type="text" name="post[location]" value="<%= post.location %>"></div>
+    <input type="submit">
+</form>
+
+<script>
+    // Select Post Form
+    let postEditForm = document.getElementById('postEditForm');
+    // Add submit listener to the form
+    postEditForm.addEventListener("submit", (event) => {
+        // No. of images uploaded
+        let imageUploads = document.getElementById('imageUpload').files.length;
+        // No. of existing Images
+        let existingImgs = document.querySelectorAll(".imageDeleteCheckbox").length;
+        // No. of Images selected for deletion
+        let imgDeletions = document.querySelectorAll(".imageDeleteCheckbox:checked").length;
+        
+        let newTotalImgs = existingImgs - imgDeletions + imageUploads;
+        if( newTotalImgs > 4) {
+            event.preventDefault();
+            let removalAmt = newTotalImgs - 4;
+            alert(`You need to remove atlease ${removalAmt} (more) image${removalAmt === 1? '' : 's'}!`);
+        }
+    });
+</script>
